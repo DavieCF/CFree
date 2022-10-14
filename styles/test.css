@@ -1,0 +1,674 @@
+﻿html,
+body,
+div,
+img {
+  margin: 0.01px;
+  padding: 0.01px;
+
+}
+
+
+a:link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 已連結過 */
+a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 滑鼠移至連結 */
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* 選擇的連結 */
+a:active {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.box {
+  display: flex;
+  padding-top: 1px;
+
+}
+
+.box1 {
+  margin-top: 0px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.boxes1 {
+  flex-direction: column;
+}
+
+.boxes2 {
+  background-color: white;
+  padding-top: 1px;
+  margin: 1%;
+  margin-left: 6%;
+  margin-right: 6%;
+  border-radius: 10px;
+  /**/
+  flex: none;
+  /**/
+  display: flex;
+
+
+}
+
+.boxes3 {
+  margin: 10px;
+  /**/
+  flex: none;
+}
+
+.boxes4 {
+  margin: 30px;
+  margin-left: 0px;
+  /**/
+  flex: auto;
+
+
+}
+
+.boxes5 {
+
+  background-color: rgba(137, 43, 226, 0);
+  height: auto;
+  /**/
+  flex-direction: row;
+  flex: auto;
+  /**/
+
+  justify-content: space-around;
+  align-items: flex-start;
+
+}
+
+.boxes6 {
+  background-color: rgba(213, 181, 243, 0);
+
+  margin: 5px;
+  text-align: left;
+  /**/
+
+}
+
+.boxes6text {
+  text-align: center;
+  font-size: 24px;
+  margin: 3px;
+}
+
+.boxes7 {
+  background-color: rgba(213, 181, 243, 0);
+  height: auto;
+
+  margin: 0px;
+  /**/
+  flex: none;
+  flex-direction: column;
+  /**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.boxes8 {
+
+  background-color: rgba(0, 0, 0, 0);
+  height: 20%;
+  width: 95%;
+  margin: 10px;
+  /**/
+  flex: auto;
+  flex-direction: row;
+  /**/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxes9 {
+  background-color: rgba(0, 255, 255, 0);
+  background-size: cover;
+  height: 90%;
+  width: 30%;
+  margin: 10px;
+  /**/
+  flex: 1;
+  flex: auto;
+
+}
+
+.ITDbox1 {
+  height: 485px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ITDbox2 {
+  width: auto;
+  height: 50%;
+
+  flex: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.ITDbox3 {
+  flex: none;
+  width: 16.5%
+}
+
+.ITDtext {
+  color: #fff;
+  font-size: 22px;
+  overflow-y: visible;
+}
+
+.img1 {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+
+.topstyl1 {
+  font-weight: bold;
+  font-size: 16px;
+  width: 10.5%;
+  margin: 11px;
+  text-align: center;
+  /**/
+  flex: none;
+}
+
+.topstyl2 {
+  font-size: 24;
+  width: auto;
+  margin: 11px;
+  margin: left;
+  text-align: center;
+  /**/
+  flex: none;
+}
+
+/* 伸縮FAQ */
+
+ul {
+  list-style: none;
+  width: 700px;
+  padding: 30px 0;
+  margin: 0 auto
+}
+
+.qa-title {
+  background: #0088ff;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer
+}
+
+.qa-title.on {
+  background: #78bffe
+}
+
+.qa-content {
+  display: none;
+  background: #0088ff66;
+  padding: 20px;
+  border-radius: 6px;
+  margin: 8px 0;
+  font-size: 24;
+}
+
+.go-top {
+  background-color: rgba(178, 243, 243, 0.681);
+  width: 45px;
+  height: 18px;
+  border: 3px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+
+.boxes10 {
+  background-color: #ffffff00;
+  display: flex;
+  margin: 30px;
+  text-align: center;
+}
+
+.boxes11 {
+  background-color: #78bffe;
+  flex: auto;
+  margin: 30px;
+  padding: 30px;
+  width: 45%;
+}
+
+.boxes12 {
+  background-color: #78bffe;
+  flex: auto;
+  margin: 30px;
+  padding: 30px;
+  width: 45%;
+}
+
+.boxIC {
+  display: flex;
+  height: 60px;
+  width: auto;
+  flex: none;
+}
+
+.FBI {
+
+  flex: auto;
+  width: 45px;
+  height: 45px;
+}
+
+.TWI {
+  flex: auto;
+  width: 45px;
+  height: 45px;
+}
+
+.INI {
+  flex: auto;
+  width: 45px;
+  height: 45px;
+}
+
+.boxIC1 {
+  flex: none;
+  width: 80%;
+}
+
+.imghost1 {}
+
+.imghost2 {
+  width: auto;
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+
+.Iauto {
+  width: auto;
+  height: 75px;
+  display: block;
+  margin: auto;
+  margin-left: 12.5%;
+}
+
+.text1 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.text2 {}
+
+@media (max-width: 768px) {
+
+  html,
+  body,
+  div,
+  img {
+    margin: 0.01px;
+    padding: 0.01px;
+
+  }
+
+
+  a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* 已連結過 */
+  a:visited {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* 滑鼠移至連結 */
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* 選擇的連結 */
+  a:active {
+    text-decoration: none;
+    color: #fff;
+  }
+
+
+  .box {
+    display: flex;
+    padding-top: 1px;
+  }
+
+  .box1 {
+    background-color: rgba(187, 187, 255, 0);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+
+  .boxes1 {
+    flex-direction: column;
+
+  }
+
+  .boxes2 {
+    padding-top: 1px;
+    margin: 0.1%;
+
+    /**/
+    flex: none;
+    /**/
+    display: block;
+
+
+  }
+
+  .boxes3 {
+    background-color: rgba(0, 0, 255, 0);
+    margin: 10px;
+    width: auto !important;
+    /**/
+    flex: none;
+
+  }
+
+  .boxes4 {
+    background-color: rgba(0, 0, 255, 0);
+    margin: 11px;
+    text-align: center;
+    width: auto !important;
+    overflow: scroll;
+    /**/
+    flex: auto;
+
+
+  }
+
+  .boxes5 {
+
+    background-color: rgba(137, 43, 226, 0);
+    height: auto;
+
+    /**/
+    flex-direction: row;
+    flex: auto;
+    /**/
+
+    justify-content: space-around;
+    align-items: flex-start;
+
+  }
+
+  .boxes6 {
+    background-color: rgba(213, 181, 243, 0);
+    height: 27%;
+    margin: 10px;
+    text-align: center;
+    /**/
+
+  }
+
+  .boxes7 {
+    background-color: rgba(213, 181, 243, 0);
+    height: auto;
+
+    margin: 10px;
+    /**/
+    flex: none;
+    flex-direction: column;
+    /**/
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .boxes8 {
+
+    background-color: rgba(0, 0, 0, 0);
+    height: 20%;
+    width: 95%;
+    margin: 10px;
+    /**/
+    flex: auto;
+    flex-direction: row;
+    /**/
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .boxes9 {
+    background-size: cover;
+    height: 90%;
+    width: 95%;
+    margin: 10px;
+    /**/
+    flex: 1;
+    flex: auto;
+
+  }
+
+  .boxes10 {
+    background-color: #fee378;
+    display: flex;
+  }
+
+  .boxes11 {
+    flex: auto;
+  }
+
+  .boxes12 {
+    flex: auto;
+  }
+
+  .img1 {
+    display: block;
+    margin: auto;
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+  }
+
+  .topstyl1 {
+    font-weight: bold;
+    font-size: 16px;
+    width: 19%;
+    margin: 11px;
+    text-align: center;
+    /**/
+    flex: none;
+
+  }
+
+  .topstyl2 {
+    font-size: 24px;
+    width: auto;
+    margin: 11px;
+    margin: left;
+    text-align: center;
+    /**/
+    flex: none;
+  }
+
+  .ITDtext {
+    color: #fff;
+    font-size: 22px;
+    overflow-y: scroll;
+    height: 450px;
+  }
+
+
+  /* 伸縮FAQ */
+
+  ul {
+    list-style: none;
+    width: auto;
+    padding: 30px 0;
+    margin: 0 auto
+  }
+
+  .qa-title {
+    background: #0088ff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer
+  }
+
+  .qa-title.on {
+    background: #78bffe
+  }
+
+  .qa-content {
+    display: none;
+    background: #0088ff66;
+    padding: 20px;
+    border-radius: 6px;
+    margin: 8px 0;
+  }
+
+  .go-top {
+    background-color: rgba(178, 243, 243, 0.681);
+    width: 45px;
+    height: 18px;
+    border: 3px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+
+  .lefticon {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 0px !important;
+    left: -10px !important;
+    border-radius: 10px;
+  }
+
+  .Iauto {
+    width: auto;
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-left: 12.5%;
+  }
+
+  .boxIC1 {
+    flex: none;
+    width: 50%;
+  }
+
+  .imghost2 {
+    width: auto;
+    height: 50px;
+    display: block;
+    margin: auto;
+  }
+
+
+}
+
+body {
+  /* 先套用 Noto Sans TC 這個 思源黑體 */
+  font-family: 'Noto Sans TC', '微軟正黑體', sans-serif;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 100;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Thin.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 300;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Regular.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 500;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Medium.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 700;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Bold.otf) format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Noto Sans TC';
+  font-style: normal;
+  font-weight: 900;
+  src: url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff2) format('woff2'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.woff) format('woff'),
+    url(//fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Black.otf) format('opentype');
+  font-display: swap;
+}
